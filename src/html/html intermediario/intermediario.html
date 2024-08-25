@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intermediário</title>
+    <link rel="stylesheet" href="../../css/intermediario.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="body">
+      <header>
+        <h1 class="titulo">Site teste intermediário</h1>
+        <nav>
+          
+            <ul class="menu">
+              <li><a href="" class="links-brancos">home</a></li>
+              <li><a href="" class="links-brancos">conta</a></li>
+            </ul>
+          
+        </nav>
+      </header>
+
+      <br />
+
+      <main>
+        <section>
+          <div class="formulario">
+            <form
+              method="GET"
+              action="intermediario.html"
+              enctype="multipart/form-data"
+            >
+              <h3>Dados:</h3>
+
+              <input
+                type="text"
+                name="nome"
+                id="nome"
+                placeholder="Nome:"
+                required
+              />
+              <br />
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Email:"
+                required
+              />
+              <br />
+              <input
+                type="number"
+                name="idade"
+                id="idade"
+                placeholder="Idade:"
+                required
+              />
+              <br />
+              <input
+                type="password"
+                name="senha"
+                id="senha"
+                placeholder="Senha:"
+                required
+              />
+
+              <br />
+
+              <label for="m">Masculino</label>
+              <input type="radio" name="genero" id="m" value="masculino" />
+              <label for="f">Feminino</label>
+              <input type="radio" name="genero" id="f" value="feminino" />
+
+              <br /><br />
+
+              <h3>Linguagens:</h3>
+
+              <label for="html"> HTML </label>
+              <input type="checkbox" name="linguagens" id="html" />
+              <label for="css"> CSS </label>
+              <input type="checkbox" name="linguagens" id="css" />
+              <label for="js">JS</label>
+              <input type="checkbox" name="linguagens" id="js" />
+              <label for="c"> C </label>
+              <input type="checkbox" name="linguagens" id="c" />
+
+              <br /><br />
+
+              <h3>Filmes:</h3>
+
+              <label for="filmes">Favorito:</label>
+              <select name="filmes" id="filmes">
+                <option value="" selected>Selecione um filme</option>
+                <option value="Harry Potter">Harry Potter</option>
+                <option value="Velozes e Furiosos">Velozes e Furiosos</option>
+                <option value="Clube da Luta">Clube da Luta</option>
+                <option value="Show do Truman">Show do Truman</option>
+              </select>
+
+              <br /><br />
+
+              <input type="file" name="arquvio" id="arquivo" />
+
+              <br />
+              <br />
+
+              <input type="submit" value="salvar" />
+              <button type="button" onclick="alert('Clicou no botão')">
+                clique aqui
+              </button>
+            </form>
+          </div>
+
+          <article>
+            <p class="fonte-paragrafo">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil vel
+              magni accusamus corporis id in quam iure. Voluptas, dolorem quae
+              rem doloribus nihil, doloremque molestias deleniti rerum
+              voluptates culpa aut.
+            </p>
+          </article>
+
+          <article>
+            <p class="fonte-nao-google">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              consequuntur vitae voluptatum fugiat, natus magnam! Mollitia
+              debitis laborum odit, eveniet nisi ea deserunt assumenda, incidunt
+              quidem laudantium amet rerum. Accusantium.
+            </p>
+          </article>
+        </section>
+      </main>
+
+      <br />
+
+      <footer>
+        <div class="links-centralizados">
+          <a href="../../../index.html" class="links-vermelhos">básico</a>
+          <a href="" class="links-vermelhos">avançado</a>
+        </div>
+
+        <br />
+      </footer>
+    </div>
+    <img
+      class="imagem"
+      src="../../images/terra.jpg"
+      alt="imagem da terra"
+      title="imagem da terra"
+    />
+  </body>
+</html>

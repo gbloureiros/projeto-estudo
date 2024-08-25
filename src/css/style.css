@@ -4,7 +4,24 @@
   box-sizing: border-box;
 }
 
-h1 {
+.body {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.imagem {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+
+.titulo {
   background-color: rgba(0, 255, 0, 0.2);
   text-align: center;
 }
@@ -55,18 +72,6 @@ a {
   margin: 10px;
 }
 
-.imagem {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  display: block;
-}
-
-.body {
-  position: absolute;
-  z-index: 1;
-}
-
-.links {
+.links-centralizados {
   text-align: center;
 }
