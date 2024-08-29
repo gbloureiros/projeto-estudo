@@ -9,37 +9,54 @@
   src: url(../fonts/MilkyNice.ttf), url(../fonts/MilkyNice.otf);
 }
 
-.body {
+body {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
   text-align: center;
+}
+
+.body {
   width: 100%;
-  height: 100vh;
+  height: 1500px;
+  padding-top: 37px;
   position: absolute;
   z-index: 1;
   color: white;
   text-shadow: 2px 2px 2px black;
 }
 
-.imagem {
-  position: relative;
+.body .titulo {
+  background-color: rgba(0, 255, 0, 0.2);
+  text-align: center;
+  position: fixed;
   width: 100%;
-  height: 100vh;
-  display: block;
+  top: 0;
 }
 
-.menu {
+.body .menu {
   list-style: inside url(../images/icon.png);
   margin: 10px 0 0 13px;
   text-align: left;
 }
 
-.links-vermelhos {
-  font-size: 24px;
-  color: rgb(146, 73, 73);
-  margin: 10px;
-  font-weight: bold;
+.body .menu .cor-link-menu {
+  color: white;
 }
 
-.formulario {
+main {
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 900px;
+  min-width: 320px;
+}
+
+.body .formulario {
   border: 1px solid white;
   border-radius: 100px;
   margin: 10px;
@@ -47,30 +64,59 @@
   text-align: center;
 }
 
-.titulo {
-  background-color: rgba(0, 255, 0, 0.2);
-  text-align: center;
-}
-
-.links-centralizados {
-  text-align: center;
-}
-
-.links-brancos {
-  color: white;
-  text-decoration: none;
-}
-
-.fonte-paragrafo {
+.body .fonte-google {
   font-family: "New Amsterdam", sans-serif;
-  font-size: 15px;
-  padding: 0 300px;
+  font-size: 17px;
   font-weight: 700px;
 }
 
-.fonte-nao-google {
+.body .fonte-nao-google {
   font-family: "Milky";
-  font-size: 12px;
-  font-weight: 700px; 
-  padding: 0 300px;
+  font-size: 15px;
+  font-weight: 700px;
+}
+
+.body .centralizar-footer {
+  text-align: center;
+}
+
+.body .links a {
+  font-size: 24px;
+  color: rgb(146, 73, 73);
+  margin: 10px;
+  font-weight: bold;
+}
+
+.body .fundo-imagem {
+  position: relative;
+  background-color: rgba(146, 146, 146, 0.2);
+  margin: 0 auto;
+  width: 100%;
+  height: 300px;
+}
+
+.body .fundo-imagem .imagem-batman {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  top: 13%;
+}
+
+.imagem-batman img {
+  width: 100%;
+}
+
+.imagem {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .body .titulo {
+    text-align: center;
+    background-color: rgba(71, 129, 255, 0.2);
+  }
 }

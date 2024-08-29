@@ -41,16 +41,8 @@ h2 {
   background-color: rgba(0, 255, 0, 0.2);
 }
 
-a {
-  font-size: 24px;
-  color: rgb(146, 73, 73);
-  margin: 30px;
-  font-weight: bold;
-}
-
 .menu {
   text-align: end;
-  color: aliceblue;
   margin: 5px 13px;
 }
 
@@ -74,4 +66,16 @@ a {
 
 .links-centralizados {
   text-align: center;
+}
+
+.links-vermelhos {
+  font-size: 24px;
+  color: rgb(146, 73, 73);
+  margin: 10px;
+  font-weight: bold;
+}
+
+.links-brancos {
+  color: white;
+  text-decoration: none;
 }
