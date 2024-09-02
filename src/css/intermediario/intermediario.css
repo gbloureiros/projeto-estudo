@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "Milky";
-  src: url(../fonts/MilkyNice.ttf), url(../fonts/MilkyNice.otf);
+  src: url(../../fonts/MilkyNice.ttf), url(../../fonts/MilkyNice.otf);
 }
 
 body {
@@ -40,7 +40,7 @@ p {
 }
 
 .body .menu {
-  list-style: inside url(../images/icon.png);
+  list-style: inside url(../../images/icon.png);
   margin: 10px 0 0 13px;
   text-align: left;
 }
@@ -147,7 +147,6 @@ main {
 .link-icone:hover {
   color: rgb(0, 255, 0);
 }
-
 
 .imagem {
   position: relative;
