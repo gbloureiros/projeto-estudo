@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
+
+body {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.body {
+  width: 100%;
+  height: 2000px;
+  padding-top: 60px;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.menu {
+  background-color: rgba(0, 255, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid black;
+}
+
+.menu h1 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.links-menu {
+  text-align: end;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0 10px 5px 0;
+}
+
+.menu a {
+  color: white;
+}
+
+.mudar-cor-do-link:hover {
+  color: rgb(0, 255, 0);
+}
+
+.rodape-da-pagina {
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  background-color: rgba(29, 29, 29, 0.562);
+  bottom: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.253);
+  display: inline-block;
+}
+
+.sobre-a-pagina {
+  display: block;
+  position: relative;
+  text-align: justify;
+  width: 400px;
+  height: 100px;
+  top: 55px;
+  left: 200px;
+  color: rgb(68, 68, 68);
+}
+
+.sobre-a-pagina h3 {
+  padding-bottom: 8px;
+}
+
+.voltar-ao-topo {
+  position: relative;
+  text-align: center;
+  top: 55px;
+}
+
+.voltar-ao-topo a {
+  color: rgb(68, 68, 68);
+}
+
+.link-icone {
+  padding-left: 5px;
+  color: rgb(68, 68, 68);
+  font-size: 20px;
+}
+
+.icones {
+  position: relative;
+  text-align: end;
+  right: 350px;
+}
+
+.separar-icones {
+  padding: 5px;
+  display: inline-block;
+}
+
+.fa-instagram,
+.fa-linkedin {
+  color: rgb(68, 68, 68);
+  font-size: 20px;
+}
+
+.fa-instagram:hover,
+.fa-linkedin:hover,
+.link-icone:hover {
+  color: rgba(0, 255, 0, 0.2);
+}
+
+.imagem {
+  position: relative;
+  padding-top: 60px;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .body .menu {
+    background-color: rgba(71, 129, 255, 0.2);
+  }
+  .body .menu h1 {
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .sobre-a-pagina {
+    left: 100px;
+  }
+  .icones {
+    right: 250px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sobre-a-pagina {
+    width: 300px;
+    height: 100px;
+    left: 50px;
+  }
+  .icones {
+    right: 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .sobre-a-pagina {
+    width: 200px;
+    height: 100px;
+    top: 35px;
+    left: 50px;
+  }
+  .icones {
+    right: 45px;
+  }
+}
+
+@media (max-width: 650px) {
+  .sobre-a-pagina {
+    width: 200px;
+    height: 100px;
+    left: 20px;
+  }
+  .icones {
+    right: 10px;
+  }
+  .voltar-ao-topo {
+    text-align: end;
+    right: 70px;
+    top: 20px;
+  }
+}
