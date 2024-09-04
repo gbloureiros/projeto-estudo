@@ -31,7 +31,7 @@ p {
   text-shadow: 2px 2px 2px black;
 }
 
-.body .titulo {
+.titulo {
   background-color: rgba(0, 255, 0, 0.2);
   text-align: center;
   position: fixed;
@@ -39,13 +39,13 @@ p {
   top: 0;
 }
 
-.body .menu {
+.menu {
   list-style: inside url(../../images/icon.png);
   margin: 10px 0 0 13px;
   text-align: left;
 }
 
-.body .menu .cor-link-menu {
+.cor-link-menu {
   color: white;
 }
 
@@ -56,7 +56,7 @@ main {
   min-width: 320px;
 }
 
-.body .formulario {
+.formulario {
   border: 1px solid white;
   border-radius: 100px;
   margin: 10px;
@@ -64,33 +64,33 @@ main {
   text-align: center;
 }
 
-.body .fonte-google {
+.fonte-google {
   font-family: "New Amsterdam", sans-serif;
   font-size: 17px;
   font-weight: 700px;
 }
 
-.body .fonte-nao-google {
+.fonte-nao-google {
   font-family: "Milky";
   font-size: 15px;
   font-weight: 700px;
 }
 
-.body .centralizar-footer {
+.centralizar-footer {
   text-align: center;
   border-top: 1px solid white;
   padding: 20px;
   margin: 0 150px;
 }
 
-.body .links a {
+.links a {
   font-size: 24px;
   color: rgb(146, 73, 73);
   margin: 10px;
   font-weight: bold;
 }
 
-.body .fundo-imagem {
+.fundo-da-imagem {
   position: relative;
   background-color: rgba(146, 146, 146, 0.2);
   margin: 0 auto;
@@ -98,7 +98,7 @@ main {
   height: 300px;
 }
 
-.body .fundo-imagem .imagem-batman {
+.imagem-batman {
   position: relative;
   width: 90%;
   margin: auto;
@@ -109,42 +109,28 @@ main {
   width: 100%;
 }
 
-.body .icones {
-  color: white;
+.icones {
   text-align: center;
   padding: 10px;
 }
 
-.separar-icones .link-icone {
+.link-icone {
   padding-left: 5px;
   color: rgba(0, 255, 0, 0.2);
   font-size: 20px;
 }
 
-.body .icones .separar-icones {
+.separar-icones {
   padding: 5px;
   display: inline-block;
 }
 
-.fa-instagram {
+.fa-instagram, .fa-linkedin {
   color: rgba(0, 255, 0, 0.2);
   font-size: 20px;
 }
 
-.fa-linkedin {
-  color: rgba(0, 255, 0, 0.2);
-  font-size: 20px;
-}
-
-.fa-instagram:hover {
-  color: rgb(0, 255, 0);
-}
-
-.fa-linkedin:hover {
-  color: rgb(0, 255, 0);
-}
-
-.link-icone:hover {
+.fa-instagram:hover, .fa-linkedin:hover, .link-icone:hover {
   color: rgb(0, 255, 0);
 }
 
