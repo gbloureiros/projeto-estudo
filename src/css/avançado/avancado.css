@@ -57,6 +57,24 @@ a {
   color: rgb(0, 255, 0);
 }
 
+.audio audio {
+  width: 500px;
+}
+
+.audio {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  text-shadow: none;
+}
+
+.audio p {
+  padding-bottom: 7px;
+  font-size: 24px;
+  color: black;
+  text-shadow: 1px 1px 1px black;
+}
+
 .rodape-da-pagina {
   position: absolute;
   width: 100%;
