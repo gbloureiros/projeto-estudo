@@ -13,8 +13,13 @@
     />
 
     <link rel="stylesheet" href="../../css/avançado/avancado.css" />
+    <link rel="stylesheet" href="../../css/avançado/responsivo.css" />
 
-    <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="../../images/favicon.ico"
+      type="image/x-icon"
+    />
     <title>Avançado</title>
   </head>
   <body>
@@ -45,14 +50,64 @@
 
       <main>
         <section id="voltar-ao-topo"></section>
-        <div class="audio">
-          <p>Áudio teste</p>
-          <audio controls>
-            <source src="../../audios/audio.mp3" type="audio/mpeg">
-            <source src="../../audios/audio.ogg" type="audio/ogg">
-            <source src="../../audios/audio.wav" type="audio/wav">
-            <p>Seu navegador não teu suporte ao áudio</p>
-          </audio>
+
+        <div class="videos-centralizados">
+          <div class="video">
+            <video controls autoplay muted loop>
+              <source src="../../videos/video.mp4" type="video/mp4" />
+              <source src="../../videos/video.ogg" type="video/ogg" />
+              <source
+                src="../../videos/video.webm"
+                type="video/webm"
+              />
+              <p>Seu navegador não tem suporte ao vídeo</p>
+            </video>
+          </div>
+
+          <div class="video-youtube">
+            <iframe
+              src="https://www.youtube.com/embed/oXtvC61XfeU?si=hgfUGG6he0dWTgc1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="audios-centralizados">
+          <div class="audio-1">
+            <audio controls preload="metadata">
+              <source src="../../audios/audio.mp3" type="audio/mpeg" />
+              <source src="../../audios/audio.ogg" type="audio/ogg" />
+              <source src="../../audios/audio.wav" type="audio/wav" />
+              <p>Seu navegador não tem suporte ao áudio</p>
+            </audio>
+          </div>
+          <div class="audio-2">
+            <audio controls preload="metadata">
+              <source src="../../audios/audio.mp3" type="audio/mpeg" />
+              <source src="../../audios/audio.ogg" type="audio/ogg" />
+              <source src="../../audios/audio.wav" type="audio/wav" />
+              <p>Seu navegador não tem suporte ao áudio</p>
+            </audio>
+          </div>
+        </div>
+
+        <div class="centralizar-links">
+          <div class="links">
+            <a href="./pseudo/pseudo-classes.html">pseudo-classes</a>
+            <a href="">vazio</a>
+            <a href="">vazio</a>
+            <a href="">vazio</a>
+          </div>
+        </div>
+
+        <div class="barra-separar">
+          <div class="sobre-mim">
+            <iframe src="./sobre-mim.html" frameborder="0"></iframe>
+          </div>
         </div>
       </main>
 
