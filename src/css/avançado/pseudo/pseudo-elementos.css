@@ -1,0 +1,24 @@
+p::first-line {
+    color: coral;
+}
+
+p::first-letter {
+    color: seagreen;
+}
+
+li::marker {
+    color: red;
+    font-size: 24px;
+}
+
+.before::before {
+    content: url(../../../images/before.png);
+}
+
+.after::after {
+    content: "";
+    background: url(../../../images/after.png) center center no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}

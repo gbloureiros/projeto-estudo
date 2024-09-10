@@ -22,6 +22,9 @@
   .audios-centralizados audio {
     padding-bottom: 10px;
   }
+  .imagem-de-fundo {
+    bottom: 1250px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -40,6 +43,9 @@
   .sobre-mim iframe {
     width: 400px;
     height: 230px;
+  }
+  .imagem-de-fundo {
+    bottom: 1280px;
   }
 }
 
@@ -75,6 +81,9 @@
   .links a {
     margin: 10px;
   }
+  .imagem-de-fundo {
+    bottom: 1170px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -88,6 +97,9 @@
   .audios-centralizados audio {
     width: 440px;
     padding-bottom: 10px;
+  }
+  .imagem-de-fundo {
+    bottom: 1060px;
   }
 }
 
@@ -109,10 +121,13 @@
     text-align: center;
     margin: 0 70px;
   }
+  .imagem-de-fundo {
+    bottom: 1090px;
+  }
 }
 
 @media (max-width: 576px) {
-  .body .menu h1 {
+  .menu h1 {
     padding-top: 10px;
     text-align: left;
     padding-left: 10px;
