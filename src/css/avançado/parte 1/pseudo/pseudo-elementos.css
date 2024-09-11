@@ -12,12 +12,12 @@ li::marker {
 }
 
 .before::before {
-    content: url(../../../images/before.png);
+    content: url(../../../../images/before.png);
 }
 
 .after::after {
     content: "";
-    background: url(../../../images/after.png) center center no-repeat;
+    background: url(../../../../images/after.png) center center no-repeat;
     display: inline-block;
     width: 24px;
     height: 24px;
