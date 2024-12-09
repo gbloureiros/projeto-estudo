@@ -1,4 +1,4 @@
-# Site - Devquest
+# Projeto - Estudo
 
 Site com HTML5 e CSS, usado para testar código e estudo enquanto estava aprendendo desde o básico ao avançado no curso DevQuest Full-Stack. Esse site foi criado inteiramente para estudos, onde eu podia testar oque estava aprendendo sobre html e css. O site é separado em 3: básico, intermediário e avançado, e da para ver a evolução entre cada um.
 
